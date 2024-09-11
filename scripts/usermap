@@ -11,3 +11,4 @@ rustup.sh root
 mysystem.sh standard
 git.sh root
 wireplumber.sh standard
+huion.sh standard
