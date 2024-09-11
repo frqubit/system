@@ -10,3 +10,4 @@ libqt5.sh root
 rustup.sh root
 mysystem.sh standard
 git.sh root
+wireplumber.sh standard
