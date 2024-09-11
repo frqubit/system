@@ -12,3 +12,4 @@ mysystem.sh standard
 git.sh root
 wireplumber.sh standard
 huion.sh standard
+krita.sh root
