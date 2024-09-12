@@ -1,14 +1,14 @@
+sources.list.sh root
+mysystem.sh standard
 vim.sh root
 curl.sh root
 spotify.sh standard
 discord.sh standard
 gnome_windows.sh root
 keymap.sh standard
-virtualbox.sh root
-sources.list.sh root
 libqt5.sh root
+# virtualbox.sh root
 rustup.sh root
-mysystem.sh standard
 git.sh root
 wireplumber.sh standard
 huion.sh standard

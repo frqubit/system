@@ -5,7 +5,12 @@ if [ "$(id -u)" -ne "0" ]; then
     exit 1
 fi
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+if [ ! -d /usr/local/cargo ]; then
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-mv ~/.cargo /usr/local/cargo
-chown cski:cski /usr/local/cargo
+    mv ~/.cargo /usr/local/cargo
+    mv ~/.rustup /usr/local/rustup
+    chown cski:cski /usr/local/cargo
+else
+    echo "[$0] rust is already installed"
+fi
