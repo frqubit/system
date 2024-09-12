@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ "$(id -u)" -ne "0" ]; then
+    echo "[$0] this script requires root"
+    exit 1
+fi
+
 apt-get install -y git
 
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
@@ -9,4 +14,3 @@ apt-get install -y git
 	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 	&& sudo apt update \
 	&& sudo apt install gh -y
-
