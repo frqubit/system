@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kill Discord
+Exec=/usr/local/share/mysystem/apps/kill_discord.sh
+Type=Application
+Icon=/usr/local/share/mysystem/icons/kill_discord.png
+Comment=Kill all instances of Discord running
+Categories=Utility;
+Terminal=false
+StartupNotify=true
