@@ -13,3 +13,5 @@ git.sh root
 wireplumber.sh standard
 huion.sh standard
 krita.sh root
+firefox.sh root
+firefox_config.sh root
