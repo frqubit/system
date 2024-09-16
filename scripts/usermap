@@ -7,7 +7,7 @@ discord.sh standard
 gnome_windows.sh root
 keymap.sh standard
 libqt5.sh root
-# virtualbox.sh root
+virtualbox.sh root
 rustup.sh root
 git.sh root
 wireplumber.sh standard
