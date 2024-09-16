@@ -16,3 +16,5 @@ krita.sh root
 firefox.sh root
 firefox_config.sh root
 apps.sh root
+nvm.sh root
+nvm_user.sh standard
