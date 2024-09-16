@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Krita
+Exec=/usr/local/bin/krita
+Type=Application
+Icon=/usr/local/share/mysystem/icons/krita.png
+Comment=Krita image editor
+Categories=Utility;
+Terminal=false
+StartupNotify=true
