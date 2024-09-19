@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x scripts/*.sh
+chmod +x linux/scripts/*.sh
 
 REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "REPO_DIR = $REPO_DIR"
@@ -24,11 +24,11 @@ echo ""
 
 cat $EXTRAS_FILE
 
-cat scripts/usermap | while read line; do
-    shell_name=scripts/$(echo $line | awk '{print $1;}')
+cat linux/scripts/usermap | while read line; do
+    shell_name=linux/scripts/$(echo $line | awk '{print $1;}')
     user=$(echo $line | awk '{print $2;}')
 
-    if [[ "$shell_name" == "scripts/#" ]]; then
+    if [[ "$shell_name" == "linux/scripts/#" ]]; then
         echo "skipping $user"
     else
         export REPO_DIR
