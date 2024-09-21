@@ -24,3 +24,5 @@ try {
 } Catch {
     powershell.exe "$REPO_DIR\windows\scripts\chocolatey.ps1"
 }
+
+powershell.exe "$REPO_DIR\windows\scripts\disable_onedrive.ps1"
