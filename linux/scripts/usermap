@@ -19,3 +19,4 @@ apps.sh root
 nvm.sh root
 nvm_user.sh standard
 docker.sh root
+java.sh root

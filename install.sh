@@ -2,7 +2,7 @@
 
 chmod +x linux/scripts/*.sh
 
-REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/linux
 echo "REPO_DIR = $REPO_DIR"
 
 # Process extras
