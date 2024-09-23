@@ -1,20 +1,20 @@
 sources.list.sh root
-mysystem.sh standard
+mysystem.sh standard !update_only
 vim.sh root
 curl.sh root
 spotify.sh standard
 discord.sh standard
-gnome_windows.sh root
-keymap.sh standard
-libqt5.sh root
+gnome_windows.sh root !update_only
+keymap.sh standard !update_only
+# libqt5.sh root !update_only
 virtualbox.sh root
 rustup.sh root
 git.sh root
-wireplumber.sh standard
+wireplumber.sh standard !update_only
 huion.sh standard
 krita.sh root
 firefox.sh root
-firefox_config.sh root
+firefox_config.sh root !update_only
 apps.sh root
 nvm.sh root
 nvm_user.sh standard
