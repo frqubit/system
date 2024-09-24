@@ -15,3 +15,6 @@ apt-get update
 
 cp $REPO_DIR/config/002_sources.list /etc/apt/sources.list
 apt-get update
+
+sudo dpkg --add-architecture i386
+sudo apt-get update

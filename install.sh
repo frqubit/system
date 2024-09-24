@@ -11,6 +11,7 @@ help_msg() {
     echo "-h, --help             show brief help"
     echo "--update               only update, do not install stuff"
     echo "--gaming               install gaming stuff, optional for less bloated device"
+    echo "--force-reinstall      force reinstall of checked packages"
     exit 0
 }
 
@@ -36,6 +37,10 @@ while test $# -gt 0; do
         --gaming)
             shift
             echo "gaming" >> $EXTRAS_FILE
+            ;;
+        --force-reinstall)
+            shift
+            echo "force_reinstall" >> $EXTRAS_FILE
             ;;
         -*)
             break
