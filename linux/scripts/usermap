@@ -23,3 +23,4 @@ java.sh root
 kdenlive.sh root
 remmina.sh root
 # pip_install.sh standard
+aws.sh root
