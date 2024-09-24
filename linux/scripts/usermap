@@ -25,3 +25,4 @@ remmina.sh root
 # pip_install.sh standard
 aws.sh root
 ffdec.sh standard
+steam.sh standard gaming

@@ -9,5 +9,3 @@ if [ "$?" -eq "1" ]; then
 else
     echo "[$0] ffdec is already installed"
 fi
-
-# todo: add driver config automation

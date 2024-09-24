@@ -10,6 +10,7 @@ help_msg() {
     echo "options:"
     echo "-h, --help             show brief help"
     echo "--update               only update, do not install stuff"
+    echo "--gaming               install gaming stuff, optional for less bloated device"
     exit 0
 }
 
@@ -31,6 +32,10 @@ while test $# -gt 0; do
         --update)
             shift
             echo "update_only" >> $EXTRAS_FILE
+            ;;
+        --gaming)
+            shift
+            echo "gaming" >> $EXTRAS_FILE
             ;;
         -*)
             break
