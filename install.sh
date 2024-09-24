@@ -57,7 +57,7 @@ cat $EXTRAS_FILE
 cat linux/scripts/usermap | while read line; do
     shell_name=$(echo $line | awk '{print $1;}')
 
-    if [[ "$shell_name" == "linux/scripts/#" ]]; then
+    if [[ "$shell_name" == "#" ]]; then
         echo "skipping $user"
     else
         shell_name=linux/scripts/$shell_name

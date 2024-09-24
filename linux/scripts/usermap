@@ -20,3 +20,6 @@ nvm.sh root
 nvm_user.sh standard
 docker.sh root
 java.sh root
+kdenlive.sh root
+remmina.sh root
+# pip_install.sh standard
