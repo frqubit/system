@@ -4,6 +4,7 @@ vim.sh root
 curl.sh root
 spotify.sh standard
 discord.sh standard
+rustdesk.sh standard
 gnome_windows.sh root !update_only
 keymap.sh standard !update_only
 # libqt5.sh root !update_only
