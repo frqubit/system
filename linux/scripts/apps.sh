@@ -16,6 +16,7 @@ if [ -d $USR_SHARE_DIR ]; then
     rm -rf $USR_SHARE_DIR
     rm /usr/share/applications/kill_discord.desktop
     rm /usr/share/applications/krita.desktop
+    rm /usr/share/applications/obs.desktop
 fi
 
 mkdir -p $USR_SHARE_DIR
