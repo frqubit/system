@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=OBS Studio
-Exec=/usr/local/share/mysystem/apps/obs.sh
-Type=Application
-Icon=/usr/local/share/mysystem/icons/obs.png
-Comment=OBS broadcasting software
-Categories=Utility;
-Terminal=false
-StartupNotify=true

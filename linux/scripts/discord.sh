@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LATEST_VERSION="0.0.70"
+LATEST_VERSION="0.0.71"
 
 install_discord() {
     curl "https://dl.discordapp.net/apps/linux/$LATEST_VERSION/discord-$LATEST_VERSION.deb" -o discord.deb
