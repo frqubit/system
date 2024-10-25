@@ -1,5 +1,5 @@
 sources.list.sh root
-mysystem.sh standard !update_only
+mysystem.sh standard
 flatpak.sh root !update_only
 vim.sh root
 curl.sh root
@@ -31,3 +31,4 @@ ffdec.sh standard
 youtube.sh root
 obs.sh root
 captions.sh root
+oh_my_bash.sh standard !update_only
