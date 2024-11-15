@@ -14,6 +14,7 @@ rustup.sh root
 git.sh root
 wireplumber.sh standard !update_only
 huion.sh standard
+bazelisk.sh standard
 krita.sh root
 firefox.sh root
 firefox_config.sh root !update_only
