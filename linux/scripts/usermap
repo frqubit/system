@@ -34,3 +34,4 @@ obs.sh root
 captions.sh root
 oh_my_bash.sh standard !update_only
 vscode.sh standard
+zoom.sh standard
