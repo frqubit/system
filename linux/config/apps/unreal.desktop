@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Unreal Engine
+Exec=/usr/local/bin/unreal
+Type=Application
+Icon=/usr/local/share/mysystem/icons/unreal.png
+Comment=Unreal Game Engine
+Categories=Utility;
+Terminal=false
+StartupNotify=true

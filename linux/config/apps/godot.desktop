@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Godot Engine
+Exec=/usr/local/bin/godot
+Type=Application
+Icon=/usr/local/share/mysystem/icons/godot.png
+Comment=Godot Game Engine
+Categories=Utility;
+Terminal=false
+StartupNotify=true
