@@ -18,6 +18,7 @@ if [ -d $USR_SHARE_DIR ]; then
     rm /usr/share/applications/krita.desktop
     rm /usr/share/applications/unreal.desktop
     rm /usr/share/applications/godot.desktop
+    rm /usr/share/applications/obsidian.desktop
 fi
 
 mkdir -p $USR_SHARE_DIR

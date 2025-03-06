@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Obsidian
+Exec=/usr/local/bin/obsidian
+Type=Application
+Icon=/usr/local/share/mysystem/icons/obsidian.png
+Comment=Obsidian Notes
+Categories=Utility;
+Terminal=false
+StartupNotify=true
