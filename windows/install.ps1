@@ -22,7 +22,7 @@ try {
         choco install `
             git googlechrome vscode discord `
             krita kdenlive obs-studio audacity `
-            blender spotify `
+            blender spotify libreoffice-fresh `
             -y
     }
 } Catch {
