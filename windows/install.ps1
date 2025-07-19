@@ -23,6 +23,7 @@ try {
             git googlechrome vscode discord `
             krita kdenlive obs-studio audacity `
             blender spotify libreoffice-fresh `
+            python3 `
             -y
     }
 } Catch {
