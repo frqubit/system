@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FreeCAD
+Exec=/usr/local/bin/freecad
+Type=Application
+Icon=/usr/local/share/mysystem/icons/freecad.png
+Comment=Free CAD Software
+Categories=Utility;
+Terminal=false
+StartupNotify=true

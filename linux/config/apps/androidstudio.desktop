@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Android Studio
+Exec=/opt/storage/android-studio/bin/studio
+Type=Application
+Icon=/opt/storage/android-studio/bin/studio.png
+Comment=Android Studio Development
+Categories=Utility;
+Terminal=false
+StartupNotify=true

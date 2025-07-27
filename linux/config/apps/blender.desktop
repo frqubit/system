@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Blender
+Exec=/usr/local/bin/blender
+Type=Application
+Icon=/usr/local/share/mysystem/icons/blender.png
+Comment=Blender 3D modeling
+Categories=Utility;
+Terminal=false
+StartupNotify=true

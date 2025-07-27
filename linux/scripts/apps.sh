@@ -19,6 +19,9 @@ if [ -d $USR_SHARE_DIR ]; then
     rm /usr/share/applications/unreal.desktop
     rm /usr/share/applications/godot.desktop
     rm /usr/share/applications/obsidian.desktop
+    rm /usr/share/applications/freecad.desktop
+    rm /usr/share/applications/blender.desktop
+    rm /usr/share/applications/androidstudio.desktop
 fi
 
 mkdir -p $USR_SHARE_DIR
