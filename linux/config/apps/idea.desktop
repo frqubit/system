@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IntelliJ IDEA
+Exec=/opt/storage/intellij/bin/idea
+Type=Application
+Icon=/usr/local/share/mysystem/icons/idea.png
+Comment=IntelliJ editor
+Categories=Utility;
+Terminal=false
+StartupNotify=true
